@@ -1,5 +1,11 @@
+import Header from './components/Layout/Header';
+
 function App() {
-	return <div>React Meals App</div>;
+	return (
+		<>
+			<Header />
+		</>
+	);
 }
 
 export default App;
